@@ -1,0 +1,542 @@
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("./fonts/Gotham-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("./fonts/Gotham-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Myriad-Pro";
+  src: url("./fonts/MYRIADPRO-REGULAR.OTF") format("opentype");
+}
+#es-kerastase.es-kerastase * {
+  box-sizing: border-box;
+}
+
+#es-kerastase.es-kerastase img {
+  max-width: 100%;
+}
+
+#es-kerastase.es-kerastase {
+  font-family: "Gotham-Light";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+  background-color: #fff;
+  padding: 20px;
+}
+#es-kerastase.es-kerastase .es-kv__swiper {
+  width: 100%;
+  max-height: 100%;
+}
+#es-kerastase.es-kerastase .es-kv__swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#es-kerastase.es-kerastase .es-kv__swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#es-kerastase.es-kerastase .es-kv__content {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#es-kerastase.es-kerastase .es-kv__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham-bold';
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+#es-kerastase.es-kerastase .es-kv__subtitle {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+}
+#es-kerastase.es-kerastase .es-kv__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Myriad-Pro";
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+#es-kerastase.es-kerastase .es-kv__disc {
+font-size: 14px;
+}
+#es-kerastase.es-kerastase .es-kv__link {
+  margin: 20px auto;
+  padding: 0;
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Gotham-bold";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #000;
+  transition: all 0.5s ease-out;
+}
+#es-kerastase.es-kerastase .es-kv__link:hover {
+  color: #000;
+  background-color: #fff;
+  outline: 4px solid #000;
+}
+#es-kerastase.es-kerastase .es-intro {
+  width: 100%;
+  margin: 80px 10px;
+  text-align: center;
+}
+#es-kerastase.es-kerastase .es-intro__title {
+  font-family: "Gotham-Bold";
+  font-size: 25px;
+  text-align: center;
+}
+#es-kerastase.es-kerastase .es-intro__text {
+  font-family: "Myriad-Pro";
+  font-size: 20px;
+}
+#es-kerastase.es-kerastase .es-sectionTitle {
+  width: 100%;
+  text-align: center;
+  margin: 80px auto;
+}
+#es-kerastase.es-kerastase .es-sectionTitle__title {
+  font-family: "Gotham-Bold";
+  text-transform: uppercase;
+  font-size: 25px;
+}
+#es-kerastase.es-kerastase .es-hair-type {
+  padding: 1px;
+  position: relative;
+}
+#es-kerastase.es-kerastase .es-hair-type__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#es-kerastase.es-kerastase .es-hair-type__swiper {
+  width: 85%;
+  max-height: 100%;
+  overflow: hidden;
+}
+#es-kerastase.es-kerastase .es-hair-type__swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 210px;
+  margin: 5px;
+}
+#es-kerastase.es-kerastase .es-hair-type__swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#es-kerastase.es-kerastase .es-hair-type .swiper-button-prev-hair-type {
+  top: 45%;
+  left: 0;
+  right: auto;
+}
+#es-kerastase.es-kerastase .es-hair-type .swiper-button-next-hair-type {
+  top: 45%;
+  right: 0;
+  left: auto;
+}
+#es-kerastase.es-kerastase .es-hair-type .swiper-button-prev-hair-type::after {
+  display: none;
+}
+#es-kerastase.es-kerastase .es-hair-type .swiper-button-next-hair-type::after {
+  display: none;
+}
+#es-kerastase.es-kerastase .es-hair-type__arrow {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-kerastase.es-kerastase .es-hair-type__product {
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+#es-kerastase.es-kerastase .es-hair-type__product:hover .es-hair-type__link::before {
+  transform: scaleX(1);
+}
+#es-kerastase.es-kerastase .es-hair-type__product:hover .es-hair-type__packshot {
+  transform: translateY(-8px);
+}
+#es-kerastase.es-kerastase .es-hair-type__packshot {
+  transition: transform 0.6s;
+  margin-bottom: 24px;
+}
+#es-kerastase.es-kerastase .es-hair-type__text {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham-bold';
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#es-kerastase.es-kerastase .es-hair-type__desc {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+#es-kerastase.es-kerastase .es-hair-type__link {
+  margin: 10px auto;
+  padding: 0;
+  display: inline-block;
+  padding: 8px 35px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #000;
+}
+#es-kerastase.es-kerastase .es-hair-type__link:hover {
+  background-color: #fff;
+  color: #000;
+  outline: 4px solid #000;
+}
+#es-kerastase.es-kerastase .es-hair-type__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+#es-kerastase.es-kerastase .es-video {
+  margin: 60px auto;
+}
+#es-kerastase.es-kerastase .es-video__iframe {
+  width: 100%;
+  min-height: 650px;
+  z-index: 1;
+}
+#es-kerastase.es-kerastase .es-fusio {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf9fa;
+}
+#es-kerastase.es-kerastase .es-fusio__content {
+  width: 50%;
+  min-width: 500px;
+  min-height: 250px;
+  text-align: center;
+}
+#es-kerastase.es-kerastase .es-fusio__title {
+  font-family: "Gotham-Bold";
+  text-transform: uppercase;
+}
+#es-kerastase.es-kerastase .es-fusio__subTitle {
+  font-family: "Myriad-Pro";
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+#es-kerastase.es-kerastase .es-fusio__link {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-family: "Gotham-Bold";
+  font-size: 16px;
+  margin: 10px 0 ;
+}
+#es-kerastase.es-kerastase .es-fusio__link:hover {
+  background-color: #fff;
+  outline: 4px solid #000;
+  color: #000;
+  transition: 0.5s ease;
+}
+#es-kerastase.es-kerastase .es-fusio__img {
+  width: 50%;
+  min-width: 500px;
+}
+#es-kerastase.es-kerastase .es-care {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf9fa;
+}
+#es-kerastase.es-kerastase .es-care__content {
+  width: 50%;
+  min-width: 500px;
+  text-align: center;
+}
+#es-kerastase.es-kerastase .es-care__title {
+  font-family: "Gotham-Bold";
+  text-transform: uppercase;
+}
+#es-kerastase.es-kerastase .es-care__subTitle {
+  font-family: "Myriad-Pro";
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+#es-kerastase.es-kerastase .es-care__link {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-family: "Gotham-Bold";
+  font-size: 16px;
+}
+#es-kerastase.es-kerastase .es-care__link:hover {
+  background-color: #fff;
+  outline: 4px solid #000;
+  color: #000;
+  transition: 0.5s ease;
+}
+#es-kerastase.es-kerastase .es-care__img {
+  width: 50%;
+  min-width: 500px;
+  min-height: 450px;
+  background-image: url(./img/care-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#es-kerastase.es-kerastase .es-bottle {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf9fa;
+}
+#es-kerastase.es-kerastase .es-bottle__content {
+  width: 50%;
+  min-width: 500px;
+  text-align: center;
+}
+#es-kerastase.es-kerastase .es-bottle__title {
+  font-family: "Gotham-Bold";
+  text-transform: uppercase;
+}
+#es-kerastase.es-kerastase .es-bottle__subTitle {
+  font-family: "Myriad-Pro";
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+#es-kerastase.es-kerastase .es-bottle__img {
+  width: 50%;
+  min-width: 500px;
+}
+#es-kerastase.es-kerastase .es-bottle__img img {
+  margin: 0 auto;
+  display: block;
+  max-width: 400px;
+}
+#es-kerastase.es-kerastase .es-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#es-kerastase.es-kerastase .es-article__single {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#es-kerastase.es-kerastase .es-article__single--reverse {
+  flex-wrap: wrap-reverse;
+}
+#es-kerastase.es-kerastase .es-article__img {
+  height: 250px;
+  width: 250px;
+}
+#es-kerastase.es-kerastase .es-article__img img {
+  max-width: 100%;
+  width: 250px;
+  height: 100%;
+}
+#es-kerastase.es-kerastase .es-article__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #faf9fa;
+  height: 250px;
+  width: 250px;
+}
+#es-kerastase.es-kerastase .es-article__title {
+  font-family: "Gotham-Bold";
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#es-kerastase.es-kerastase .es-article__desc {
+  font-family: "Myriad-Pro";
+  font-size: 16px;
+}
+#es-kerastase.es-kerastase .es-article__link {
+  color: #000;
+  font-family: "Gotham-Bold";
+  font-size: 16px;
+  text-decoration: none;
+}
+#es-kerastase.es-kerastase .es-article__link:hover {
+  letter-spacing: 1px;
+  transition: .5s ease;
+}
+#es-kerastase.es-kerastase .es-article__link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 700px) {
+
+  #es-kerastase.es-kerastase .es-video__iframe {
+    width: 100%;
+    min-height: 200px;
+    z-index: 1;
+  }
+  #es-kerastase.es-kerastase .es-care__title{
+    font-size: 18px;
+  }
+  #es-kerastase.es-kerastase .es-care__img {
+    min-width: 200px;
+    height: 200px;
+    width: 100%;
+  }
+  #es-kerastase.es-kerastase .es-fusio__img {
+    min-width: 200px;
+    height: auto;
+    width: 100%;
+  }
+
+  #es-kerastase.es-kerastase .es-bottle__title {
+    font-size: 18px;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  #es-kerastase.es-kerastase {
+    padding: 10px;
+  }
+
+}
+
+@media screen and (min-width: 728px) {
+  #es-kerastase.es-kerastase .es-kv__swiper-slide {
+    position: relative;
+  }
+  #es-kerastase.es-kerastase .es-kv__content {
+    width: 55%;
+    padding: 0 40px;
+    position: absolute;
+    top: 25%;
+    right: 0;
+  }
+  #es-kerastase.es-kerastase .es-kv__title {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  #es-kerastase.es-kerastase .es-kv__subtitle {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
+  }
+  #es-kerastase.es-kerastase .es-kv__text {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
+
+@keyframes slideright {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideleft {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
