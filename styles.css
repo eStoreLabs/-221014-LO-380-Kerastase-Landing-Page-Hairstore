@@ -206,6 +206,10 @@ font-size: 14px;
 
   align-items: center;
 }
+#es-kerastase.es-kerastase .es-hair-type__product a{
+  text-decoration: none;
+  color: #000;
+}
 #es-kerastase.es-kerastase .es-hair-type__product:hover .es-hair-type__link::before {
   transform: scaleX(1);
 }
